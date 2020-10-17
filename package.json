@@ -1,0 +1,34 @@
+{
+  "name": "tsuurukitto",
+  "version": "0.0.2",
+  "description": "A React toolkit containing components styled with Tailwind and some hooks",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist/",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+  },
+  "keywords": [
+    "react",
+    "toolkit",
+    "components"
+  ],
+  "author": "Aymeric GIRAUDET",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "docz": "^2.3.1",
+    "typescript": "^4.0.3"
+  }
+}
